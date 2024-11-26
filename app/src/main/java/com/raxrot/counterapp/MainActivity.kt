@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.raxrot.counterapp.screens.CounterApp
+import com.raxrot.counterapp.screens.PhotoGallery
 import com.raxrot.counterapp.ui.theme.CounterAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,5 +29,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MyApp(modifier: Modifier=Modifier){
-    CounterApp()
+    //CounterApp()
+    PhotoGallery()
 }
