@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.raxrot.counterapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.raxrot.counterapp"
